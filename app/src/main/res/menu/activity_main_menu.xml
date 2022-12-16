@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/subtitulo_uno"
+            android:title="Material_Design">
+            <menu>
+                <item
+                    android:id="@+id/constraint_layout"
+                    android:icon="@mipmap/ic_launcher"
+                    android:title="@string/constraint_layout" />
+                <item
+                    android:id="@+id/nestedscrollview"
+                    android:icon="@drawable/ic_baseline_android_24"
+                    android:title="@string/nestedscrollview" />
+                <item
+                    android:id="@+id/collapsing"
+                    android:icon="@drawable/ic_baseline_category_24"
+                    android:title="@string/collapsingtoolbarlayout" />
+                <item
+                    android:id="@+id/video"
+                    android:icon="@drawable/ic_baseline_slow_motion_video_24"
+                    android:title="@string/video" />
+                <item
+                    android:id="@+id/musica"
+                    android:icon="@drawable/ic_baseline_library_music_24"
+                    android:title="@string/musica" />
+                <item
+                    android:id="@+id/grabar"
+                    android:icon="@drawable/ic_baseline_videocam_24"
+                    android:title="@string/grabar" />
+            </menu>
+        </item>
+        <item
+            android:id="@+id/subtitulo_dos"
+            android:title="Ejercicio2">
+            <menu>
+                <item
+                    android:id="@+id/addStudent"
+                    android:icon="@drawable/ic_baseline_person_add_24"
+                    android:title="@string/addStudent" />
+                <item
+                    android:id="@+id/despliegaStudent"
+                    android:icon="@drawable/ic_baseline_list_24"
+                    android:title="@string/despliegaStudent" />
+                <item
+                    android:id="@+id/findStudent"
+                    android:icon="@drawable/ic_baseline_find_in_page_24"
+                    android:title="@string/findStudent" />
+                <item
+                    android:id="@+id/deleteStudent"
+                    android:icon="@drawable/ic_baseline_delete_24"
+                    android:title="@string/deleteStudent" />
+
+            </menu>
+        </item>
+
+    </group>
+</menu>
